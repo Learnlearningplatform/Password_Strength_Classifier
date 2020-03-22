@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Password Validator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="../static/images/icons/lock.png" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+
+
+	<div class="container-login100" style="background-image: url('../static/images/bg-01.jpg');">
+		<div class="wrap-login100 p-l-55 p-r-55 p-t-45 p-b-30">
+			<form class="login100-form validate-form" onsubmit=event.preventDefault()>
+
+				<span class="login100-form-title p-b-35">
+					<i class="fas fa-user fa-2x"></i>
+					<br>
+					Sign In
+				</span>
+
+				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter username">
+					<input class="input100" type="text" name="username" placeholder="Username" id="username">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25" data-validate="Enter password">
+					<input class="input100" type="password" name="pass" placeholder="Password" id="password">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-login100-form-btn">
+					<button class="login100-form-btn" id="submit">
+						<i class="fas fa-sign-in-alt">&nbsp &nbsp</i> Sign In
+					</button>
+				</div>
+
+				<div class="text-center p-t-57 p-b-20">
+					<span class="txt1">
+						Or login with
+					</span>
+				</div>
+
+				<div class="flex-c p-b-30">
+					<a class="login100-social-item">
+						<i class="fab fa-facebook"></i>
+
+					</a>
+
+					<a class="login100-social-item">
+						<img src="../static/images/icons/icon-google.png" alt="GOOGLE">
+					</a>
+				</div>
+
+				<div class="alert alert-danger alert-dismissible fade show" role="alert">
+					<strong>Holy guacamole!</strong> You should check in on some of those fields below.
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</form>
+
+
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+	<!--===============================================================================================-->
+	<script src="../static/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+
+	<script src="../static/vendor/bootstrap/js/popper.min.js"></script>
+	<script src="../static/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="../static/js/main.js"></script>
+	<script src="../static/js/app.js"></script>
+</body>
+
+</html>
